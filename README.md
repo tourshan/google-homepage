@@ -1,0 +1,1 @@
+This will be a copy of the Google`s front page
