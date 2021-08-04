@@ -1,0 +1,104 @@
+body, input, button {
+  font-size: 14px;
+  font-family: Roboto,arial,sans-serif;
+  color: #222;
+}
+.centered{
+  align-items:center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar{
+  margin-top:1%;
+  padding:1%;
+}
+#about{
+ margin-left:2%;
+}
+#store{
+  margin-right: 50%;
+  margin-left:-1.5%;
+}
+#gmail{
+  margin-left:18%;
+}
+#apps-icon{
+  margin-top: -10%;
+}
+.centered-logo{
+  align-items: center;
+  justify-content: center;
+  margin-top:5%;
+}
+.searchbar-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#searchbar{
+  padding: 1% 17% 1% 15%;
+  margin: 2% 5% 0 5%;
+}
+#search-icon{
+  position: absolute;
+  top: 40%;
+  right: 70%;
+  height: 35px;
+  width: 38px;
+}
+#microphone-icon{
+  position: absolute;
+  margin-left: 68%;
+  top: 40%;
+  left: 2%;
+  height:30px;
+  width:20px;
+}
+.lucky-buttons{
+  align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+#google-languages{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3%;
+}
+#feeling-lucky-button{
+  margin-left: 3%;
+}
+.footer{
+  margin-top:15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#footer-start{
+  margin-left: 2.5%;
+  justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+#footer-business{
+  padding:5%;
+}
+#footer-privacy{
+  margin-right: 4%;
+  margin-left: 47%;
+}
+#footer-settings{
+  padding:20px;
+}
+#footer-middle{
+  order: 2;
+}
+#footer-end{
+  justify-content: flex-end;
+    min-width: 30%;
+    order: 3
+}
