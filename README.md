@@ -1,1 +1,1 @@
-This will be a copy of the Google`s front page
+Google homepage project done v 1.0
