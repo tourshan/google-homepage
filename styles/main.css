@@ -17,6 +17,7 @@ body, input, button {
 }
 #about{
  margin-left:2%;
+ padding-right: 2%;
 }
 #store{
   margin-right: 50%;
@@ -27,6 +28,13 @@ body, input, button {
 }
 #apps-icon{
   margin-top: -10%;
+}
+#sign-in-button{
+  letter-spacing: 0.25px;
+  cursor:pointer;
+  color:#fff;
+  background: #1a73e8;
+    border: 1px solid transparent;
 }
 .centered-logo{
   align-items: center;
@@ -44,8 +52,9 @@ body, input, button {
   margin: 2% 5% 0 5%;
 }
 #search-icon{
+  
   position: absolute;
-  top: 40%;
+  top: 39.5%;
   right: 70%;
   height: 35px;
   width: 38px;
@@ -71,6 +80,9 @@ body, input, button {
 }
 #feeling-lucky-button{
   margin-left: 3%;
+}
+#change-language{
+  margin-left: 20%;
 }
 .footer{
   margin-top:15%;
@@ -101,4 +113,21 @@ body, input, button {
   justify-content: flex-end;
     min-width: 30%;
     order: 3
+}
+a{
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Roboto,arial,sans-serif;
+  color:#222;
+}
+a:hover{
+  text-decoration:underline;
+}
+button{
+  background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
 }
