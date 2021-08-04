@@ -16,8 +16,8 @@ body, input, button {
   padding:1%;
 }
 #about{
- margin-left:2%;
- padding-right: 2%;
+  margin-left:2%;
+  padding-right: 2%;
 }
 #store{
   margin-right: 50%;
@@ -34,7 +34,7 @@ body, input, button {
   cursor:pointer;
   color:#fff;
   background: #1a73e8;
-    border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 .centered-logo{
   align-items: center;
@@ -42,17 +42,16 @@ body, input, button {
   margin-top:5%;
 }
 .searchbar-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 #searchbar{
   padding: 1% 17% 1% 15%;
   margin: 2% 5% 0 5%;
 }
 #search-icon{
-  
   position: absolute;
   top: 39.5%;
   right: 70%;
@@ -69,14 +68,14 @@ body, input, button {
 }
 .lucky-buttons{
   align-items: center;
-    justify-content: center;
-    margin-top: 2%;
+  justify-content: center;
+  margin-top: 2%;
 }
 #google-languages{
   display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:3%;
+  align-items: center;
+  justify-content: center;
+  margin-top:3%;
 }
 #feeling-lucky-button{
   margin-left: 3%;
@@ -93,8 +92,8 @@ body, input, button {
 #footer-start{
   margin-left: 2.5%;
   justify-content: flex-start;
-    min-width: 30%;
-    order: 1;
+  min-width: 30%;
+  order: 1;
 }
 #footer-business{
   padding:5%;
@@ -111,8 +110,8 @@ body, input, button {
 }
 #footer-end{
   justify-content: flex-end;
-    min-width: 30%;
-    order: 3
+  min-width: 30%;
+  order: 3 
 }
 a{
   text-decoration: none;
@@ -125,9 +124,9 @@ a:hover{
 }
 button{
   background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: Roboto,arial,sans-serif;
-    font-size: 14px;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
 }
